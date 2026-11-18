@@ -1,0 +1,327 @@
+[
+ {
+  "pathway": "pavement",
+  "n": 645050,
+  "p": 47,
+  "clusters": 268516,
+  "B": 1000,
+  "cuts": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "se_rebuild_max_rel": 1.7429835352800183e-11,
+  "candidates": 34,
+  "frame_terms": [
+   {
+    "unit": "mode_vpavetyp_MISSING",
+    "Dmax": 0.07387951488201255,
+    "cl_all_lcb": 0.05959149304248977
+   },
+   {
+    "unit": "persons_in_crash",
+    "Dmax": 0.032440504750674,
+    "cl_all_lcb": 0.03137745340274769
+   }
+  ],
+  "point_above_delta": [
+   "mode_vprofile_1",
+   "mode_vsurcond_1.0",
+   "mode_valign_1",
+   "mode_vpavetyp_2.0",
+   "DRINKING_UNK",
+   "mode_vsurcond_2.0",
+   "SEX_2",
+   "mode_vprofile_2",
+   "mode_vprofile_UNK"
+  ],
+  "simultaneous": [
+   "mode_vprofile_1",
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "simultaneous_model": [
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "simultaneous_joint": [
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "marginal": [
+   "mode_vprofile_1",
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "nonfatal_simultaneous": [
+   "DRINKING_UNK",
+   "person_type_nonoccupant"
+  ],
+  "holm": [
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "bh": [
+   "DRINKING_UNK",
+   "SEX_2"
+  ],
+  "groups_simultaneous": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "groups_point": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "groups_holm": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "sweep_simultaneous": {
+   "0.005": 8,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_model": {
+   "0.005": 6,
+   "0.01": 2,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_marginal": {
+   "0.005": 10,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_point": {
+   "0.005": 17,
+   "0.01": 9,
+   "0.02": 2,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_holm": {
+   "0.005": 5,
+   "0.01": 2,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_groups": {
+   "0.005": 5,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "c_range": [
+   1.565644658326812,
+   3.734230370600779
+  ],
+  "kappa": 3.657469495724234,
+  "pbar": [
+   0.49106918579737396,
+   0.37632066065803715,
+   0.2728952461795166,
+   0.19665873734431938
+  ],
+  "sweep_relative": {
+   "0.02": 11,
+   "0.05": 2,
+   "0.1": 0
+  },
+  "relative_set": {
+   "0.02": [
+    "mode_vprofile_1",
+    "mode_vpavetyp_2.0",
+    "DRINKING_UNK",
+    "SEX_2",
+    "mode_vprofile_2",
+    "mode_vprofile_UNK",
+    "person_type_nonoccupant",
+    "AGE",
+    "person_type_passenger",
+    "mode_vprofile_5",
+    "veh_trav_sp"
+   ],
+   "0.05": [
+    "mode_vprofile_1",
+    "DRINKING_UNK"
+   ],
+   "0.1": []
+  },
+  "median_se_ratio_cluster_over_model": 1.0810001134912675,
+  "median_se_ratio_joint_over_model": 1.014682146043288
+ },
+ {
+  "pathway": "infrastructure",
+  "n": 645050,
+  "p": 215,
+  "clusters": 268516,
+  "B": 1000,
+  "cuts": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "se_rebuild_max_rel": 9.636735853746359e-13,
+  "candidates": 47,
+  "frame_terms": [
+   {
+    "unit": "RUR_URB_MISSING",
+    "Dmax": 0.0727098609868349,
+    "cl_all_lcb": 0.06848129782828154
+   },
+   {
+    "unit": "persons_in_crash",
+    "Dmax": 0.031420929982772156,
+    "cl_all_lcb": 0.030615414326115135
+   }
+  ],
+  "point_above_delta": [
+   "mode_impact1_12.0",
+   "mode_impact1_6.0",
+   "MAN_COLL_6.0",
+   "SEX_2",
+   "DRINKING_UNK",
+   "mode_acc_type_68.0"
+  ],
+  "simultaneous": [
+   "mode_impact1_12.0",
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "simultaneous_model": [
+   "mode_impact1_12.0",
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "simultaneous_joint": [
+   "mode_impact1_12.0",
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "marginal": [
+   "mode_impact1_12.0",
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "nonfatal_simultaneous": [
+   "mode_impact1_12.0"
+  ],
+  "holm": [
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "bh": [
+   "SEX_2",
+   "DRINKING_UNK"
+  ],
+  "groups_simultaneous": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "groups_point": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]",
+   "MAN_COLL [group]"
+  ],
+  "groups_holm": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "sweep_simultaneous": {
+   "0.005": 9,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_model": {
+   "0.005": 8,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_marginal": {
+   "0.005": 9,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_point": {
+   "0.005": 19,
+   "0.01": 6,
+   "0.02": 1,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_holm": {
+   "0.005": 6,
+   "0.01": 2,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_groups": {
+   "0.005": 6,
+   "0.01": 4,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "c_range": [
+   1.582850712203026,
+   3.332797953023956
+  ],
+  "kappa": 3.657469495724234,
+  "pbar": [
+   0.49106279884515086,
+   0.3763251863543053,
+   0.27290738956416005,
+   0.1966604368061083
+  ],
+  "sweep_relative": {
+   "0.02": 8,
+   "0.05": 2,
+   "0.1": 0
+  },
+  "relative_set": {
+   "0.02": [
+    "mode_impact1_12.0",
+    "mode_impact1_6.0",
+    "SEX_2",
+    "DRINKING_UNK",
+    "mode_acc_type_50.0",
+    "person_type_nonoccupant",
+    "person_type_passenger",
+    "AGE"
+   ],
+   "0.05": [
+    "mode_impact1_12.0",
+    "DRINKING_UNK"
+   ],
+   "0.1": []
+  },
+  "median_se_ratio_cluster_over_model": 1.123177701499698,
+  "median_se_ratio_joint_over_model": 1.0114050312776166
+ }
+]

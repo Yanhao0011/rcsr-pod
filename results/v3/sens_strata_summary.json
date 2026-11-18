@@ -1,0 +1,75 @@
+{
+ "pavement_fars": {
+  "n": 280556,
+  "credible": [
+   "AGE [group]",
+   "person_type [group]"
+  ],
+  "main_set_credible": {
+   "DRINKING [group]": false,
+   "SEX [group]": false,
+   "person_type [group]": true
+  },
+  "main_set_Dmax": {
+   "DRINKING [group]": 0.010173619848104592,
+   "SEX [group]": 0.008310485227602478,
+   "person_type [group]": 0.016769611343205027
+  }
+ },
+ "pavement_crss": {
+  "n": 364494,
+  "credible": [
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "main_set_credible": {
+   "DRINKING [group]": false,
+   "SEX [group]": true,
+   "person_type [group]": true
+  },
+  "main_set_Dmax": {
+   "DRINKING [group]": 0.0035148332131343628,
+   "SEX [group]": 0.012201856428055553,
+   "person_type [group]": 0.018586762792486333
+  }
+ },
+ "infrastructure_fars": {
+  "n": 280556,
+  "credible": [
+   "AGE [group]",
+   "mode_acc_type [group]",
+   "person_type [group]"
+  ],
+  "main_set_credible": {
+   "mode_acc_type [group]": true,
+   "SEX [group]": false,
+   "person_type [group]": true,
+   "DRINKING [group]": false
+  },
+  "main_set_Dmax": {
+   "mode_acc_type [group]": 0.028665045670902476,
+   "SEX [group]": 0.009227366078896633,
+   "person_type [group]": 0.01520141583620524,
+   "DRINKING [group]": 0.009204973147083989
+  }
+ },
+ "infrastructure_crss": {
+  "n": 364494,
+  "credible": [
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "main_set_credible": {
+   "mode_acc_type [group]": false,
+   "SEX [group]": true,
+   "person_type [group]": true,
+   "DRINKING [group]": false
+  },
+  "main_set_Dmax": {
+   "mode_acc_type [group]": 0.00832156688190125,
+   "SEX [group]": 0.011539159314606187,
+   "person_type [group]": 0.024850113200782876,
+   "DRINKING [group]": 0.0025650754630734203
+  }
+ }
+}

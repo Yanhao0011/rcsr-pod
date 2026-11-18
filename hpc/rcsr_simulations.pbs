@@ -1,0 +1,17 @@
+#!/bin/bash
+# PBS template for the Monte Carlo study (pipeline/run_simulations.sh). Fill in the placeholders for your cluster.
+# Submit from the repository root:  qsub hpc/rcsr_simulations.pbs
+# One experiment per job is also possible:  qsub -v EXPS="pow" hpc/rcsr_simulations.pbs
+#PBS -P <your_project>
+#PBS -q <your_queue>
+#PBS -l select=1:ncpus=16:mem=96gb
+#PBS -l walltime=<hh:mm:ss>
+#PBS -N rcsr_sim
+#PBS -o logs/rcsr_sim.out
+#PBS -e logs/rcsr_sim.err
+cd "$PBS_O_WORKDIR"
+PY="<path/to/python>"          # interpreter of an environment built from requirements.txt
+echo "START $(date)"
+PYTHON="$PY" JOBS=16 bash pipeline/run_simulations.sh ${EXPS:-}
+RC=$?
+echo "EXIT $RC END $(date)"

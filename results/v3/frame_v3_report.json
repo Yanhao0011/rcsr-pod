@@ -1,0 +1,165 @@
+{
+ "n_before": 649808,
+ "by_origin_before": {
+  "crss": 369252,
+  "fars": 280556
+ },
+ "crss_fatal_crashes_2021": 1185,
+ "dropped_2021": 1570,
+ "crss_fatal_crashes_2022": 1284,
+ "dropped_2022": 1694,
+ "crss_fatal_crashes_2023": 1130,
+ "dropped_2023": 1494,
+ "levels_SEX": {
+  "1": 385155,
+  "2": 247715,
+  "UNK": 12180
+ },
+ "levels_DRINKING": {
+  "UNK": 313903,
+  "0": 296319,
+  "1": 34828
+ },
+ "levels_WRK_ZONE": {
+  "0": 631356,
+  "1": 7246,
+  "4": 5504,
+  "2": 768,
+  "3": 176
+ },
+ "levels_LGT_COND": {
+  "1": 389935,
+  "3": 121904,
+  "2": 99811,
+  "5": 16343,
+  "4": 9529,
+  "6": 5463,
+  "UNK": 2065
+ },
+ "levels_WEATHER": {
+  "1": 481613,
+  "10": 83982,
+  "2": 47186,
+  "UNK": 18309,
+  "4": 6638,
+  "5": 4437,
+  "6": 830,
+  "11": 575,
+  "3": 572,
+  "12": 379,
+  "8": 357,
+  "7": 172
+ },
+ "levels_mode_valign": {
+  "1": 540571,
+  "2": 40415,
+  "3": 27913,
+  "0": 19849,
+  "UNK": 10200,
+  "4": 6102
+ },
+ "levels_mode_vprofile": {
+  "1": 468847,
+  "UNK": 63318,
+  "2": 47671,
+  "0": 19877,
+  "5": 17249,
+  "6": 17166,
+  "3": 9844,
+  "4": 1078
+ },
+ "person_type": {
+  "driver": 433633,
+  "passenger": 165906,
+  "nonoccupant": 41822,
+  "other": 3689
+ },
+ "persons_in_crash_quantiles": [
+  3.0000000000000004,
+  6.0,
+  11.000000000000002
+ ],
+ "unknown_AGE": 17437,
+ "unknown_veh_vnum_lan": 89782,
+ "n_after": 645050,
+ "dropped": 4758,
+ "by_origin_after": {
+  "crss": 364494,
+  "fars": 280556
+ },
+ "kabco_after": {
+  "0.0": 328284,
+  "1.0": 74021,
+  "2.0": 66717,
+  "3.0": 49176,
+  "4.0": 126852
+ },
+ "flic_pavement": [
+  {
+   "cut": 0,
+   "observed": 0.4910720099217115,
+   "mean_fitted_firth": 0.49106918579737396,
+   "intercept_firth": -0.17850261024149633,
+   "intercept_flic": -0.17848672768943846,
+   "intercept_shift": 1.5882552057866484e-05
+  },
+  {
+   "cut": 1,
+   "observed": 0.376319665142237,
+   "mean_fitted_firth": 0.37632066065803715,
+   "intercept_firth": -0.2924067322379776,
+   "intercept_flic": -0.2924135216546809,
+   "intercept_shift": -6.78941670329003e-06
+  },
+  {
+   "cut": 2,
+   "observed": 0.27289047360669716,
+   "mean_fitted_firth": 0.2728952461795166,
+   "intercept_firth": -0.5261485503806422,
+   "intercept_flic": -0.5261913514536782,
+   "intercept_shift": -4.280107303600289e-05
+  },
+  {
+   "cut": 3,
+   "observed": 0.19665452290520113,
+   "mean_fitted_firth": 0.19665873734431938,
+   "intercept_firth": -0.1540880839292825,
+   "intercept_flic": -0.15414615834299192,
+   "intercept_shift": -5.8074413709419126e-05
+  }
+ ],
+ "flic_infrastructure": [
+  {
+   "cut": 0,
+   "observed": 0.4910720099217115,
+   "mean_fitted_firth": 0.49106279884515086,
+   "intercept_firth": 0.9936498119807833,
+   "intercept_flic": 0.9937120673779906,
+   "intercept_shift": 6.225539720727813e-05
+  },
+  {
+   "cut": 1,
+   "observed": 0.376319665142237,
+   "mean_fitted_firth": 0.3763251863543053,
+   "intercept_firth": 1.2044425650669208,
+   "intercept_flic": 1.2043981233113912,
+   "intercept_shift": -4.444175552964502e-05
+  },
+  {
+   "cut": 2,
+   "observed": 0.27289047360669716,
+   "mean_fitted_firth": 0.27290738956416005,
+   "intercept_firth": 0.5191720024347244,
+   "intercept_flic": 0.5189979883366289,
+   "intercept_shift": -0.0001740140980954763
+  },
+  {
+   "cut": 3,
+   "observed": 0.19665452290520113,
+   "mean_fitted_firth": 0.1966604368061083,
+   "intercept_firth": 0.3648910964358967,
+   "intercept_flic": 0.3647998227637534,
+   "intercept_shift": -9.12736721432883e-05
+  }
+ ]
+}

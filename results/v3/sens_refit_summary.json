@@ -1,0 +1,134 @@
+{
+ "pavement_poref": {
+  "corr": 0.9949898077715545,
+  "above_delta_gls": [
+   "mode_vpavetyp_MISSING",
+   "persons_in_crash",
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "above_delta_poref": [
+   "mode_vpavetyp_MISSING",
+   "persons_in_crash",
+   "DRINKING [group]",
+   "person_type [group]",
+   "mode_vpavetyp [group]"
+  ]
+ },
+ "pavement": [
+  {
+   "unit": "DRINKING [group]",
+   "credible": true,
+   "R": 0.004551395245633408,
+   "Dmax": 0.0139512211301423
+  },
+  {
+   "unit": "SEX [group]",
+   "credible": true,
+   "R": 0.019337654937304632,
+   "Dmax": 0.0124306704334175
+  },
+  {
+   "unit": "person_type [group]",
+   "credible": true,
+   "R": 0.024450483278061798,
+   "Dmax": 0.0113383423758537
+  },
+  {
+   "unit": "mode_vpavetyp_MISSING",
+   "credible": false,
+   "R": 0.051899539269677976,
+   "Dmax": 0.0738795148820125
+  },
+  {
+   "unit": "mode_vpavetyp [group]",
+   "credible": false,
+   "R": 0.050530138984490824,
+   "Dmax": 0.0096049497584404
+  },
+  {
+   "unit": "AGE [group]",
+   "credible": false,
+   "R": 0.015409333891930372,
+   "Dmax": 0.0081752903789181
+  },
+  {
+   "unit": "veh_vnum_lan [group]",
+   "credible": false,
+   "R": 0.010968317596930519,
+   "Dmax": 0.0048816486404529
+  }
+ ],
+ "infrastructure_poref": {
+  "corr": 0.9956497204191235,
+  "above_delta_gls": [
+   "RUR_URB_MISSING",
+   "persons_in_crash",
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]",
+   "MAN_COLL [group]"
+  ],
+  "above_delta_poref": [
+   "RUR_URB_MISSING",
+   "persons_in_crash",
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]",
+   "REL_ROAD [group]"
+  ]
+ },
+ "infrastructure": [
+  {
+   "unit": "mode_acc_type [group]",
+   "credible": true,
+   "R": 0.01369333810955537,
+   "Dmax": 0.0127389302284444
+  },
+  {
+   "unit": "SEX [group]",
+   "credible": true,
+   "R": 0.017568547270158375,
+   "Dmax": 0.0122758507131478
+  },
+  {
+   "unit": "person_type [group]",
+   "credible": true,
+   "R": 0.020735476037898597,
+   "Dmax": 0.0115712958570509
+  },
+  {
+   "unit": "DRINKING [group]",
+   "credible": true,
+   "R": 0.003604874668602716,
+   "Dmax": 0.0115439217359496
+  },
+  {
+   "unit": "RUR_URB_MISSING",
+   "credible": false,
+   "R": 0.042379310814744955,
+   "Dmax": 0.0727098609868349
+  },
+  {
+   "unit": "MAN_COLL [group]",
+   "credible": false,
+   "R": 0.008805916144191113,
+   "Dmax": 0.0102824262975869
+  },
+  {
+   "unit": "HARM_EV [group]",
+   "credible": false,
+   "R": 0.007768360686292286,
+   "Dmax": 0.0082991966445388
+  },
+  {
+   "unit": "mode_impact1 [group]",
+   "credible": false,
+   "R": 0.0070180062766053855,
+   "Dmax": 0.0080019653859195
+  }
+ ]
+}

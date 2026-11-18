@@ -1,0 +1,125 @@
+{
+ "pavement": {
+  "p": 47,
+  "credible": [
+   "SEX [group]",
+   "DRINKING [group]",
+   "person_type [group]"
+  ],
+  "holm": [
+   "SEX [group]",
+   "DRINKING [group]"
+  ],
+  "main_set": {
+   "DRINKING [group]": {
+    "Dmax": 0.013951221130142388,
+    "lcb": 0.013306844527199862
+   },
+   "SEX [group]": {
+    "Dmax": 0.0124306704334176,
+    "lcb": 0.011835140343803249
+   },
+   "person_type [group]": {
+    "Dmax": 0.011338342375853704,
+    "lcb": 0.010472228083863432
+   }
+  },
+  "top": [
+   {
+    "unit": "DRINKING [group]",
+    "Dmax": 0.013951221130142388,
+    "lcb": 0.013306844527199862
+   },
+   {
+    "unit": "SEX [group]",
+    "Dmax": 0.0124306704334176,
+    "lcb": 0.011835140343803249
+   },
+   {
+    "unit": "person_type [group]",
+    "Dmax": 0.011338342375853704,
+    "lcb": 0.010472228083863432
+   },
+   {
+    "unit": "mode_vpavetyp [group]",
+    "Dmax": 0.009604949758441114,
+    "lcb": 0.006137378984842514
+   },
+   {
+    "unit": "AGE [group]",
+    "Dmax": 0.00817529037891812,
+    "lcb": 0.007758717809325128
+   },
+   {
+    "unit": "veh_vnum_lan [group]",
+    "Dmax": 0.004881648640452896,
+    "lcb": 0.004324838363618994
+   }
+  ]
+ },
+ "infrastructure": {
+  "p": 215,
+  "credible": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "DRINKING [group]",
+   "person_type [group]"
+  ],
+  "holm": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "DRINKING [group]",
+   "person_type [group]"
+  ],
+  "main_set": {
+   "mode_acc_type [group]": {
+    "Dmax": 0.012738930228861146,
+    "lcb": 0.011218063417778798
+   },
+   "SEX [group]": {
+    "Dmax": 0.012275850713502266,
+    "lcb": 0.011730428850658432
+   },
+   "person_type [group]": {
+    "Dmax": 0.011571295859677215,
+    "lcb": 0.010928272360708651
+   },
+   "DRINKING [group]": {
+    "Dmax": 0.01154392173578186,
+    "lcb": 0.010797177632437944
+   }
+  },
+  "top": [
+   {
+    "unit": "mode_acc_type [group]",
+    "Dmax": 0.012738930228861146,
+    "lcb": 0.011218063417778798
+   },
+   {
+    "unit": "SEX [group]",
+    "Dmax": 0.012275850713502266,
+    "lcb": 0.011730428850658432
+   },
+   {
+    "unit": "person_type [group]",
+    "Dmax": 0.011571295859677215,
+    "lcb": 0.010928272360708651
+   },
+   {
+    "unit": "DRINKING [group]",
+    "Dmax": 0.01154392173578186,
+    "lcb": 0.010797177632437944
+   },
+   {
+    "unit": "MAN_COLL [group]",
+    "Dmax": 0.010282426297210276,
+    "lcb": 0.004892738915957082
+   },
+   {
+    "unit": "HARM_EV [group]",
+    "Dmax": 0.008299196647023282,
+    "lcb": 0.002408448583026035
+   }
+  ]
+ }
+}

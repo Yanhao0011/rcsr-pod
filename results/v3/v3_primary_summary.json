@@ -1,0 +1,208 @@
+{
+ "pavement": {
+  "units": 13,
+  "point_above_delta": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "credible": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "marginal": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "model": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "nonfatal": [
+   "person_type [group]"
+  ],
+  "holm": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "bh": [
+   "DRINKING [group]",
+   "SEX [group]",
+   "person_type [group]"
+  ],
+  "sweep_simultaneous": {
+   "0.005": 5,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_marginal": {
+   "0.005": 5,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_holm": {
+   "0.005": 4,
+   "0.01": 3,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "relative": {
+   "0.02": [
+    "DRINKING [group]",
+    "SEX [group]",
+    "person_type [group]",
+    "mode_vpavetyp [group]",
+    "AGE [group]",
+    "veh_trav_sp"
+   ],
+   "0.05": [
+    "DRINKING [group]"
+   ],
+   "0.1": []
+  },
+  "sets_by_delta": {
+   "0.005": [
+    "DRINKING [group]",
+    "SEX [group]",
+    "person_type [group]",
+    "mode_vpavetyp [group]",
+    "AGE [group]"
+   ],
+   "0.01": [
+    "DRINKING [group]",
+    "SEX [group]",
+    "person_type [group]"
+   ],
+   "0.02": [],
+   "0.03": [],
+   "0.05": []
+  },
+  "source": {
+   "Dmax": 0.0738795148820125,
+   "cl_all_lcb": 0.0595914930424897
+  },
+  "near": [],
+  "n_threshold_specific_params": 27,
+  "n_features": 47
+ },
+ "infrastructure": {
+  "units": 18,
+  "point_above_delta": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]",
+   "MAN_COLL [group]"
+  ],
+  "credible": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "marginal": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "model": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "nonfatal": [],
+  "holm": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "bh": [
+   "mode_acc_type [group]",
+   "SEX [group]",
+   "person_type [group]",
+   "DRINKING [group]"
+  ],
+  "sweep_simultaneous": {
+   "0.005": 6,
+   "0.01": 4,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_marginal": {
+   "0.005": 8,
+   "0.01": 4,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "sweep_holm": {
+   "0.005": 5,
+   "0.01": 4,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  },
+  "relative": {
+   "0.02": [
+    "mode_acc_type [group]",
+    "SEX [group]",
+    "person_type [group]",
+    "DRINKING [group]",
+    "MAN_COLL [group]",
+    "HARM_EV [group]",
+    "mode_impact1 [group]",
+    "AGE [group]"
+   ],
+   "0.05": [
+    "mode_acc_type [group]",
+    "DRINKING [group]"
+   ],
+   "0.1": []
+  },
+  "sets_by_delta": {
+   "0.005": [
+    "mode_acc_type [group]",
+    "SEX [group]",
+    "person_type [group]",
+    "DRINKING [group]",
+    "mode_impact1 [group]",
+    "AGE [group]"
+   ],
+   "0.01": [
+    "mode_acc_type [group]",
+    "SEX [group]",
+    "person_type [group]",
+    "DRINKING [group]"
+   ],
+   "0.02": [],
+   "0.03": [],
+   "0.05": []
+  },
+  "source": {
+   "Dmax": 0.0727098609868349,
+   "cl_all_lcb": 0.0684812978282815
+  },
+  "near": [
+   {
+    "unit": "MAN_COLL [group]",
+    "Dmax": 0.0102824262975869,
+    "cl_all_lcb": 0.0046100710657501
+   }
+  ],
+  "n_threshold_specific_params": 189,
+  "n_features": 215
+ }
+}

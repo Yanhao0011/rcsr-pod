@@ -1,0 +1,18 @@
+#!/bin/bash
+# PBS template for the application pipeline (pipeline/run_application.sh). Fill in the placeholders for your cluster.
+# Requires outputs/kabco_person_level_clean.csv (pipeline/run_data.sh) and data/CRSS{2021,2022,2023}NationalCSV.zip.
+# Submit from the repository root:  qsub hpc/rcsr_application.pbs
+#PBS -P <your_project>
+#PBS -q <your_queue>
+#PBS -l select=1:ncpus=16:mem=96gb
+#PBS -l walltime=<hh:mm:ss>
+#PBS -N rcsr_app
+#PBS -o logs/rcsr_app.out
+#PBS -e logs/rcsr_app.err
+cd "$PBS_O_WORKDIR"
+PY="<path/to/python>"          # interpreter of an environment built from requirements.txt
+export OMP_NUM_THREADS=16 MKL_NUM_THREADS=16 OPENBLAS_NUM_THREADS=16
+echo "START $(date)"
+PYTHON="$PY" bash pipeline/run_application.sh
+RC=$?
+echo "EXIT $RC END $(date)"

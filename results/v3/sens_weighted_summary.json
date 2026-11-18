@@ -1,0 +1,35 @@
+{
+ "pavement": {
+  "credible": [],
+  "holm": [],
+  "main_set_credible": {
+   "DRINKING [group]": false,
+   "SEX [group]": false,
+   "person_type [group]": false
+  },
+  "sweep": {
+   "0.005": 0,
+   "0.01": 0,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  }
+ },
+ "infrastructure": {
+  "credible": [],
+  "holm": [],
+  "main_set_credible": {
+   "mode_acc_type [group]": false,
+   "SEX [group]": false,
+   "person_type [group]": false,
+   "DRINKING [group]": false
+  },
+  "sweep": {
+   "0.005": 0,
+   "0.01": 0,
+   "0.02": 0,
+   "0.03": 0,
+   "0.05": 0
+  }
+ }
+}
