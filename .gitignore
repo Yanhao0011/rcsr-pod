@@ -1,0 +1,19 @@
+# raw NHTSA FARS/CRSS files (public; download them, see README.md)
+data/
+# pipeline products: person-level frames (180-232 MB each), fits, logs, regenerated tables
+outputs/
+logs/
+# Python and numba caches
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.venv/
+# large binaries and logs (the two small Firth fits shipped with the results are kept)
+*.npz
+!results/v3/firth_fit_*.npz
+*.log
+# OS / editor
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

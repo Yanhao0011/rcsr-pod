@@ -1,0 +1,12 @@
+# RCSR-POD companion code: Python dependencies.
+# Python 3.13 (the reported tables were assembled with Python 3.13.15).
+# Pinned to the versions of the workstation environment used for the reported runs (manuscript Appendix B.4:
+# Python 3.13, numpy, scipy, pandas, joblib; departure kernel compiled by numba 0.67).
+numpy==2.5.2
+scipy==1.18.0
+pandas==3.0.5
+numba==0.67.0
+llvmlite==0.49.0
+joblib==1.5.3
+statsmodels==0.14.6
+patsy==1.0.2
